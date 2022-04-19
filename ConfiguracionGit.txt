@@ -1,0 +1,31 @@
+CONFIGURACION GIT REMOTO CON LOCAL
+
+LENOVO@DESKTOP-57PQ88V MINGW64 ~
+$ cd C:\Users\LENOVO\Desktop\Carpetas\Programacion\PruebaGit
+bash: cd: C:UsersLENOVODesktopCarpetasProgramacionPruebaGit: No such file or directory
+
+LENOVO@DESKTOP-57PQ88V MINGW64 ~
+$ cd C:/Users/LENOVO/Desktop/Carpetas/Programacion/PruebaGit
+
+LENOVO@DESKTOP-57PQ88V MINGW64 ~/Desktop/Carpetas/Programacion/PruebaGit
+$ git init
+Initialized empty Git repository in C:/Users/LENOVO/Desktop/Carpetas/Programacion/PruebaGit/.git/
+
+LENOVO@DESKTOP-57PQ88V MINGW64 ~/Desktop/Carpetas/Programacion/PruebaGit (master)
+$ git cinfig user.name "miguelmorales1280"
+git: 'cinfig' is not a git command. See 'git --help'.
+
+The most similar command is
+        config
+
+LENOVO@DESKTOP-57PQ88V MINGW64 ~/Desktop/Carpetas/Programacion/PruebaGit (master)
+$ git config user.name "miguelmorales1280"
+
+LENOVO@DESKTOP-57PQ88V MINGW64 ~/Desktop/Carpetas/Programacion/PruebaGit (master)
+$ git config user.email "miguelmorales1280@gmail.com"
+
+LENOVO@DESKTOP-57PQ88V MINGW64 ~/Desktop/Carpetas/Programacion/PruebaGit (master)
+$ git remote add origin "https://github.com/miguelmorales1280/gitprueba.git"
+
+LENOVO@DESKTOP-57PQ88V MINGW64 ~/Desktop/Carpetas/Programacion/PruebaGit (master)
+$
